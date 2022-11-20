@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 1;
     padding: 0;
     box-sizing: border-box;
 }
@@ -11,9 +11,10 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: rgb(09, 50, 159);
+    background-color:gray
     
 }
+
 
 .body-calculator {
 
@@ -22,7 +23,7 @@ body {
     overflow: hidden;
     background-color: white;
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-    border-radius: 12px;
+    border-radius: 14px;
 
 }
 
@@ -47,7 +48,7 @@ body {
     gap: 28px;
     font-size: 24px;
     font-weight: bold;
-    background-color: gray;
+    background-color: rgb(208, 95, 95);
 
 
 }
@@ -61,7 +62,7 @@ body {
     align-items: center;
     gap: 20px;
     padding: 0px 20px 0px 20px;
-    background-color: gray;
+    background-color: rgb(208, 95, 95);
 
 }
 
@@ -85,7 +86,7 @@ body {
     border-radius: 50px;
     font-size: 24px;
     font-weight: bold;
-    background-color: rgb(146, 212, 54);
+    background-color: white;
     border: 0;
     cursor: pointer;
 
