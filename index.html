@@ -14,38 +14,39 @@
         </div>
 
         <div class="num-container">
-            <button class="num-buttom">7</button>
-            <button class="num-buttom">8</button>
-            <button class="num-buttom">9</button>
-            <button class="num-buttom">+</button>
+            <button class="num-buttom" onclick="numeros(7)">7</button>
+            <button class="num-buttom" onclick="numeros(8)">8</button>
+            <button class="num-buttom" onclick="numeros(9)">9</button>
+            <button class="num-buttom" onclick="numeros('+')">+</button>
         </div>
 
         <div class="num-container">
-            <button class="num-buttom">4</button>
-            <button class="num-buttom">5</button>
-            <button class="num-buttom">6</button>
-            <button class="num-buttom">-</button>
+            <button class="num-buttom" onclick="numeros(4)">4</button>
+            <button class="num-buttom" onclick="numeros(5)">5</button>
+            <button class="num-buttom" onclick="numeros(6)">6</button>
+            <button class="num-buttom" onclick="numeros('-')">-</button>
         </div>
 
         <div class="num-container">
-            <button class="num-buttom">1</button>
-            <button class="num-buttom">2</button>
-            <button class="num-buttom">3</button>
-            <button class="num-buttom">/</button>
+            <button class="num-buttom" onclick="numeros(1)">1</button>
+            <button class="num-buttom" onclick="numeros(2)">2</button>
+            <button class="num-buttom" onclick="numeros(3)">3</button>
+            <button class="num-buttom" onclick="numeros('/')">/</button>
         </div>
 
         <div class="num-container">
-            <button class="num-buttom">C</button>
-            <button class="num-buttom">0</button>
-            <button class="num-buttom">.</button>
-            <button class="num-buttom">*</button>
+            <button class="num-buttom" onclick="reset()">C</button>
+            <button class="num-buttom" onclick="numeros(0)">0</button>
+            <button class="num-buttom" onclick="numeros('.')">.</button>
+            <button class="num-buttom" onclick="numeros('*')">*</button>
         </div>
 
         <div class="num-container-2">
-            <button class="num-buttom"><</button>
-            <button class="num-buttom">></button>
-            <button class="num-buttom-2">=</button>
+            <button class="num-buttom" onclick="numeros('<')"><</button>
+            <button class="num-buttom" onclick="numeros('>')">></button>
+            <button class="num-buttom-2" onclick="operacion()">=</button>
         </div>
     </div>
 </body>
+<script src="main.js"></script>
 </html>
