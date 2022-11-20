@@ -1,16 +1,16 @@
 function numeros(valor){
-    document.getElementById('resultado').value += valor;
+    document.getElementById('result').value += valor;
 }
 
 function operacion(){
-    var opera = document.getElementById('resultado').value;
+    var opera = document.getElementById('result').value;
     if(opera == 0){
-        document.getElementById('resultado').value = "Sin operacion"
+        document.getElementById('result').value = "Sin operacion"
     } else{
-        document.getElementById('resultado').value = eval(opera);
+        document.getElementById('result').value = eval(opera);
     }
 }
 
 function reset(){
-    document.getElementById('resultado').value = " ";
+    document.getElementById('result').value = " ";
 }
